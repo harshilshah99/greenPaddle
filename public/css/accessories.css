@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@500&display=swap');
+*{
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+h2 {
+    color: white;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    padding: 1rem;
+    text-align: center;
+    justify-content: center;
+}
+
+h3 {
+    color: white;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    padding: 1rem;
+    text-align: center;
+    justify-content: center;
+}
+
+#img {
+    text-align: center;
+}
+
+.accessories {
+    background-color: #2b2d2e;
+}

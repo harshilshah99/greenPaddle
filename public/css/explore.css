@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@500&display=swap');
+
+*{
+    border: 0px;
+    margin: 0px;
+}
+.xplore-page{
+    background-color: black;
+}
+#xplore{
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: center;
+    align-items: center;
+
+}
+.oneimage{
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction: column;
+
+
+    justify-content: center;
+    align-items: center;
+}
+.xplore-div{
+    padding: 45px;
+}
+.xplore-images{
+    height: 230px;
+    width: 300px;
+    border-radius: 1rem;
+}
+.xplore-places{
+    color: white;
+    font-size: 1.5rem;
+}
+.xplore-div{
+    position: relative;
+    height: 230px;
+    width: 300px;
+   
+
+}
+.thecard{
+    position: absolute;
+    height: 230px;
+    width: 300px;
+    transform-style: preserve-3d;
+    transition: all 1.5s ease;
+  
+}
+.thecard:hover{
+    transform: rotateY(180deg);
+}
+.frontside{
+    position: absolute;
+    height: 230px;
+    width: 300px;
+    backface-visibility: hidden;
+    /* background:red; */
+    color: white;
+    border-radius: 1rem;
+    
+}
+.backside{
+    position: absolute;
+    height: 230px;
+    width: 300px;
+    backface-visibility: hidden;
+    background:green;
+    color: white;
+    transform: rotateY(180deg);
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    font-size: 0.9rem;
+    
+    
+    border-radius: 1rem;
+    padding:0.3rem;
+
+}
+#heading-page{
+    color: white;
+    text-align: center;
+    padding-top:1rem;
+    
+}
+.location{
+    color: white;
+}
+.location:hover{
+    color: green;
+}
+.location i{
+    font-size: 2rem;
+}
+.weather{
+    
+    height: 300px;
+    margin-left: 40%;
+
+    width: 20%;
+
+    background-color: green;
+    
+    border-radius: 2rem;
+    padding: 1rem;
+    
+}
+
+.input{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100px;
+    
+    
+  
+}
+
+.inputValue{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 1rem;
+    padding: 8px;
+    margin: 1rem;
+    font-size: 1rem;
+   
+    font-family: 'Baloo Bhaijaan 2', cursive;
+}
+.display{
+    text-align: center;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+}
+.button{
+    border-radius: 1rem;
+    cursor: pointer;
+    padding: 5px;
+    
+}
+.button:hover{
+    cursor: pointer;
+    color: rgb(4, 94, 4);
+}
+#weather-check{
+    color: white;
+    text-align: center;
+    margin: 1rem;
+    padding-top: 2rem;
+   
+}
+.display{
+    padding-top: 3rem;
+    font-size: 1rem;
+    color: white;
+    
+}
+.desc{
+    padding-top: 1rem;
+}
+.feel{
+    padding-top: 0.5rem;
+}
+#bicyclemove{
+    color: green;
+}
+#bicycle{
+    color: white;
+}
+#bicyclemove i{
+    font-size: 2rem;
+    padding: 10px;
+    color: green;
+    
+    animation-name: bicyclee;
+    animation-duration: 20s;
+animation-iteration-count: infinite;
+animation-delay: 1s;
+animation-timing-function: ease-in-out;
+
+}
+@keyframes bicyclee{
+0%{
+margin-left: 0;
+
+}
+20%{
+
+margin-left: 75rem;
+}
+50%{
+margin-left: 75rem;
+-ms-transform: rotateY(180deg);
+-webkit-transform: rotateY(180deg);
+transform: rotateY(180deg);
+}
+70%{
+margin-left: 0;
+}
+}

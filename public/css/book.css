@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@500&display=swap');
+*{
+    margin: 0px;
+    border: opx;
+}
+h1{
+    color: white;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+}
+.bookbc{
+    background-color: #2b2d2e;
+}
+.cycleimage img{
+    height: 240px;
+    width: 320px;
+    border: 2px solid green;
+    border-radius: 10px;
+  
+  
+}
+@media (max-width:419px) {
+    .cycleimage img{
+        height: 210px;
+width: 270px;
+border: 2px solid green;
+border-radius: 10px;
+  
+} 
+}
+.cycleimage{
+   
+  color: white;
+    margin: 3rem;
+}
+.cycleimage a{
+   
+  text-decoration: none;
+}
+.cycle{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+h4{
+    padding: 5px;
+    font-family: 'Baloo Bhaijaan 2';
+    font-weight: 300;
+}
+h3{
+    padding: 5px;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    justify-content: center;
+    text-align: center;
+    color: green;
+}
+h1{
+    padding-left: 3rem;
+    font-weight: 500;
+}
+.purchase{
+    background-color: green;
+    border-radius: 10px;
+    justify-content: center;
+    text-align: center;
+    margin-top: 1rem;
+    color: white;
+
+}
+.purchase:hover{
+    background-color: black;
+    cursor: pointer;
+    color: green;
+
+}
+#selectcycle p{
+    justify-content: center;
+    text-align: center;
+    color: green;
+    font-size: 3rem;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+
+}
+#instructions{
+    color: white;
+    font-family: 'Baloo Bhaijaan 2';
+    font: 1rem;
+    background-color: rgba(0, 128, 0, 0.514);
+    padding: 10px;
+
+}
+#ins{
+    color: rgb(168, 168, 158);
+
+}

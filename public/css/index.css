@@ -1,0 +1,635 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap');
+
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(23 24 26);
+}
+h1{
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    color: green;
+    font-size: 2rem;
+}
+#heading{
+    text-align: center;
+    justify-content: center;
+}
+
+@media(max-width:800px) {
+    .nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 4rem;
+        background-color: rgb(0, 0, 0);
+    }
+}
+@media(max-width:800px) {
+    .nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 2rem;
+        background-color: rgb(0, 0, 0);
+    }
+}
+@media(max-width:460px) {
+    .nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 1rem;
+        background-color: rgb(0, 0, 0);
+    }
+}
+
+.nav ul li {
+    list-style: none;
+    padding: 1rem;
+    font-size: 1.2rem;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+}
+
+@media (max-width:600px) {
+    .nav ul li {
+        list-style: none;
+        margin-top: 1rem;
+        padding: 0.6rem;
+        font-size: 1rem;
+    }
+}
+@media (max-width:460px) {
+    .nav ul li {
+        list-style: none;
+        
+        padding: 0.3rem;
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width:800px)and(min-width:600px) {
+    .nav ul li {
+        list-style: none;
+        padding: 1rem;
+        font-size: 1.5rem;
+    }
+}
+ @media (max-width:460px)and(min-width:200px) {
+    .nav ul li {
+        list-style: none;
+        padding: 0.3rem;
+        font-size: 0.8rem;
+    }
+} 
+
+.nav ul li:hover {
+    background-color: rgb(53 116 52);
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+#header {
+    display: flex;
+}
+
+.logo img {
+    height: 3rem;
+    width: 3rem;
+    position: absolute;
+    margin-top: 3px;
+    margin-left: 2px;
+   
+}
+
+@media (max-width:800px) {
+    .logo img {
+        height: 4rem;
+        width: 4rem;
+        position: absolute;
+        margin-left: 5px;
+        margin-top: 5px;
+       
+    }
+}
+@media (max-width:800px) {
+    .logo img {
+        height: 3rem;
+        width: 3rem;
+        position: absolute;
+        margin-left: 5px;
+        margin-top: 5px;
+       
+    }
+}
+@media (max-width:460px) {
+    .logo img {
+        height: 2rem;
+        width: 2rem;
+        position: absolute;
+        margin-left: 5px;
+        margin-top: 5px;
+        
+    }
+}
+
+
+.tag {
+    text-decoration: none;
+    color: white;
+}
+
+.home {
+    display: flex;
+    height: 33rem;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+#homeinfo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+@media(max-width:800px) {
+    #homeinfo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 18rem;
+        text-align: center;
+    }
+}
+
+.home h2 {
+    padding: 30px;
+    align-items: center;
+    color: white;
+}
+
+.home p {
+    align-items: center;
+    color: white;
+}
+
+.home::before {
+    content: "";
+    background: url('../image/mikkel-bech-yjAFnkLtKY0-unsplash.jpg') no-repeat center center/cover;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+.bookbutton{
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 1rem;
+
+}
+#book{
+    
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border: 0px;
+    background-color: green;
+    color: white;
+}
+#book:hover{
+    animation-name: booksbutton;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    
+    animation-timing-function: ease-out;
+  
+}
+@keyframes booksbutton{
+    from{
+width: 110px;
+
+    }
+    to{
+width:150px;
+
+    }
+}
+#book a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+#book a:hover{
+    text-decoration: none;
+    color: white;
+}
+#book:hover{
+    background-color: black;
+    color: white;
+    border: 2px solid green;
+}
+.b{
+    color: white;
+    background-color: white;
+    border-radius: 72px;
+    border: 0px;
+    font-size: xx-small;
+    margin: 3px;
+}
+.b:hover{
+    background-color: green;
+    color: green;
+}
+#tagline{
+    font-size: 3rem;
+    color: white;
+}
+#topic {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    padding: 2rem;
+    margin: 1rem;
+    height: 13rem;
+    width: 12rem;
+    background-color: rgb(43 45 46);
+position: relative;
+transition: 0.5s;
+
+    border-radius: 25px;
+}
+.container p{
+    font-family:'ubuntu';
+   position: relative;
+   opacity: 0;
+   visibility: hidden;
+   text-align: center;
+   font-size: 1rem;
+   color: green;
+  
+}
+.hoverbutton{
+    background: green;
+    padding: 4px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 4px;
+
+}
+.container:hover p{
+    opacity: 1;
+    visibility: visible;
+    transition: 0.5s;
+    
+    
+   
+   
+}
+.container:hover::before{
+    position: absolute;
+}
+
+.container:hover {
+   opacity: 1;
+    animation-name: harshil;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+
+
+
+   
+    /* height: 15rem;
+    width: 14rem; */
+}
+@keyframes harshil{
+    from{
+        height: 13rem;
+        width: 12rem;
+    }
+    to{
+        height: 18rem;
+        width: 12rem;
+    }
+}
+
+
+.container img {
+    height: 10rem;
+    width: 13rem;
+    margin: auto;
+    display: block;
+    padding-bottom: 20px;
+    border-radius: 10px;
+}
+
+.container h3 {
+    padding-bottom: 10px;
+    color: white;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    text-align: center;
+}
+
+.container p {
+    color: whitesmoke;
+}
+
+.container p a {
+    color: white;
+    text-decoration: none;
+}
+
+#Contact {
+    
+    justify-content: center;
+    align-items: center;
+    background-color: #2b2d2e;
+    padding-top: 1rem;
+   
+    width: 100%;
+    
+}
+#Contact h1{
+    color: white;
+    justify-content: center;
+    text-align: center;
+}
+
+
+#Contact::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0.9;
+    background: url('./images/background\ \(2\).jpg') no-repeat center center/cover;
+    z-index: -1;
+}
+
+#contact-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 34px;
+    color: aliceblue;
+}
+
+#contact-box input,
+#contact-box textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 9px;
+    font-size: 1rem;
+}
+
+#contact-box form {
+    width: 30%;
+}
+@media(max-width:700px) {
+    #contact-box form {
+        width: 40%;
+    }
+    
+}
+@media(max-width:500px) {
+    #contact-box form {
+        width: 50%;
+    }
+    
+}
+
+
+#contact-box label {
+    font-size: 1rem;
+}
+.contactbtn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+.c{
+    margin: 10px;
+
+}
+.con{
+    font-size: 1rem;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    padding: 10px;
+    border-radius: 50px;
+    color: white;
+    background-color: #489848de;
+    border: 0px;
+}
+.btn{
+    background-color: #489848de;
+    color: white;
+    font-size: 1rem;
+    padding: 5px;
+    border-radius: 0.7rem;
+    margin-top: 0.5rem;
+    cursor: pointer;
+
+}
+.btn:hover{
+    background-color: #304d30;
+    color: white;
+    font-size: 1rem;
+    padding: 5px;
+    border-radius: 0.7rem;
+    margin-top: 0.5rem;
+
+   
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: white;
+}
+
+.last {
+    padding: 1rem;
+}
+
+.center {
+    text-align: center;
+    justify-content: center;
+    padding: 10px;
+    background-color: black;
+    color: white;
+}
+
+#time{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+.duration{
+    color: white;
+    justify-content: center;
+    text-align: center;
+    padding: 0.7rem;
+    border: 2px solid #489848de;
+    border-radius: 50px;
+    margin: 1.2rem;
+    margin-bottom: 2rem;
+    background-color: #489848de;
+
+}
+.duration:hover{
+    color: green;
+    background-color: white;
+}
+#td{
+    background-color: #2b2d2e;
+    margin-bottom: 2rem;
+}
+#td h1{
+    color: white;
+    justify-content: center;
+    text-align: center;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.features{
+    padding: 1.5rem;
+    
+}
+.features i{
+    font-size: 2rem;
+}
+.features p{
+    font-size: 1rem;
+    font-family: 'Ubuntu', sans-serif;
+}
+.chooseus{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+#choose h1{
+    justify-content: center;
+    text-align: center;
+
+}
+
+.term{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: white;
+}
+#linkimg{
+    height: 5rem;
+    width: 5rem;
+}
+.link{
+    padding: 1.5rem;
+
+}
+.link ul li{
+    font-family: 'Ubuntu', sans-serif; 
+    padding: 4px;
+    list-style: none;
+
+}
+
+#linkmail{
+    background-color: rgba(30, 131, 30, 0.753);
+    font-size: 1.1rem;
+    margin-top: 1.1rem;
+    border: 0px;
+    color: black;
+    border-radius: 8px;
+    padding: 2px;
+}
+#scrolltotop {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    background-color: green;
+    cursor: pointer;
+}
+#scrolltotop:hover{
+    background-color: rgb(36, 73, 36);
+  
+}
+#scrolltotop i{
+    
+font-size: 2rem;
+color: white;
+
+}
+.link button i{
+    border: none;
+    background-color: white;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.link button i:hover{
+   opacity: 0.5;
+}
+.link button{
+    border: none;
+    background-color: white;
+    font-size: 1rem;
+    cursor: pointer;
+}
+#preloader{
+    background-color: #0b4d42;;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    justify-content: center;
+    align-items: center;
+}
+#preloader div{
+    background-color: #0b4d42;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    justify-content: center;
+    align-items: center;
+}
+#preloader img{
+
+    height:140px ;
+    width: 250px;
+    position: fixed;
+    z-index: 100;
+    padding-left: 41%;
+    padding-top: 16%;
+}
