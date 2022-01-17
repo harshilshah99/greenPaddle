@@ -66,7 +66,7 @@ var myData = new Info({
 })
 
 
-//Post request for mail
+//Post request for email
 app.post('/',(req,res)=>{
     console.log(req.body)
     const transporter = nodemailer.createTransport({
