@@ -12,10 +12,11 @@ h2 {
     justify-content: center;
 }
 
-h3 {
+h4 {
     color: white;
     font-family: 'Baloo Bhaijaan 2', cursive;
     padding: 1rem;
+    font-size: 1.2rem;
     text-align: center;
     justify-content: center;
 }
