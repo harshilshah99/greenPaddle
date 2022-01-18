@@ -13,6 +13,7 @@
     justify-content: center;
     align-items: center;
     background-color: rgb(23 24 26);
+    border-bottom: 1px solid #ffffff4a;
 }
 h1{
     font-family: 'Baloo Bhaijaan 2', cursive;
@@ -620,17 +621,21 @@ color: white;
     background-color: #0b4d42;
     height: 100%;
     width: 100%;
-    position: fixed;
+    position: relative;
     z-index: 100;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 #preloader img{
 
     height:140px ;
     width: 250px;
-    position: fixed;
+    position: relative;
     z-index: 100;
-    padding-left: 41%;
-    padding-top: 16%;
+    margin-top: 30vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
 }

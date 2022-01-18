@@ -81,7 +81,7 @@ const mailOptions={
     from: 'greenpaddle123@gmail.com',
     to: req.body.email,
     subject: 'greenpaddle',
-    text: 'Thank you for subscribing to greenPaddle'
+    text: 'Thank you for subscribing to greenPaddle. You will receive all new offers and deals.'
 }
     transporter.sendMail(mailOptions, (error ,info)=>{
         if(error){
