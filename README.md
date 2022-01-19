@@ -20,9 +20,8 @@ Technology learnt during this project:
 2. CSS
 3. Javascript
 4. NodeJs
-5. Pug
-6. Express
-7. MongoDB
+5. Express
+6. MongoDB
 ## Progress
 - [x] Creating Home page
 - [x] Creating Contact form with a database
@@ -35,12 +34,12 @@ Technology learnt during this project:
 * Then you need to perform following steps in your terminal
   > * npm install
   > * npm init
-  > * npm install pug
   > * npm install express
   > * npm install mongoose
+  > * npm install nodemon
 ## Usage 
-  > Once you are done with the above steps than you can run by just typing **localhost** on your browser.
+  > Once you are done with the above steps than you can run by just typing **nodemon server** in the terminal and **localhost** on your browser.
 ## Applications 
-  > This website helps user to rent a bicycle whenever they need and also for whatever period of time at low rates. Cycling can keep you healthy and also help to discover new places around. It also heps in keeping the enviornment green.
+  > This website helps user to rent a bicycle whenever they need and also for whatever period of time at low rates.It also lets you check the weather of that city before you pedal out so cycling in rain can be avoided. Cycling can keep you healthy and also help to discover new places around. It also heps in keeping the enviornment green.
 ## Future Scopes 
   > Safer routes can be added , for safer cycling experience. Chatbot can be added for 24x7 help.
