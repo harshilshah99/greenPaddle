@@ -42,4 +42,4 @@ Technology learnt during this project:
 ## Applications 
   > This website helps user to rent a bicycle whenever they need and also for whatever period of time at low rates.It also lets you check the weather of that city before you pedal out so cycling in rain can be avoided. Cycling can keep you healthy and also help to discover new places around. It also heps in keeping the enviornment green.
 ## Future Scopes 
-  > Safer routes can be added , for safer cycling experience. Chatbot can be added for 24x7 help.
+  > Safer routes can be added , for safer cycling experience. Chatbot can be added for 24x7 help. Online payment gateway can be added.
