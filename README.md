@@ -18,7 +18,7 @@ Thus, we have developed ***GreenPaddle***, a web solution that promotes cycling 
   - Frequently asked questions
    
 ###  🤖Resources
-- [Demo Video](https://youtu.be/misKkTp2Meo)
+- [Demo Video](https://drive.google.com/drive/folders/1K0E1go9V3sBLNMMyghJflSrspOY1ZSlf?usp=sharing)
 - [GitHub Repository](https://github.com/harshilshah99/greenPaddle)
 - [Website Link](https://reverent-yalow-4ee88e.netlify.app)
 
