@@ -1,47 +1,34 @@
-# greenPaddle
-## Team name: Mighty Developers
-## Team members
-* Harshil Shah - vharshilshah19052002@gmail.com [![LinkedIn Badge](https://img.shields.io/badge/LinkedIn-Profile-informational?style=flat&logo=linkedin&logoColor=white&color=0D76A8)](https://www.linkedin.com/in/harshil-shah-6776a221b)
-* Chaitya Vora - chaityavora02@gmail.com [![LinkedIn Badge](https://img.shields.io/badge/LinkedIn-Profile-informational?style=flat&logo=linkedin&logoColor=white&color=0D76A8)](https://www.linkedin.com/in/chaitya-vora-90693b202)
-* Jinay Mehta - mehtajinay151@gmail.com [![LinkedIn Badge](https://img.shields.io/badge/LinkedIn-Profile-informational?style=flat&logo=linkedin&logoColor=white&color=0D76A8)](https://www.linkedin.com/in/jinay-mehta-584590216)
-* Abhishek Patingrao -itsabhi.rao@gmail.com [![LinkedIn Badge](https://img.shields.io/badge/LinkedIn-Profile-informational?style=flat&logo=linkedin&logoColor=white&color=0D76A8)](https://www.linkedin.com/in/abhishekpatingrao/)
-## Mentors
-* Vaishnavi Shah
-* Siddharth Shah
-* Atharva Alshi
-## Description
-**greenPaddle** is basically a cycle renting website. It also contains places to explore while cycling, cycling accessories which you can buy, notify about different cycling competions, provide safer cycling routes. It helps in keeping enviornment green.
-* [Github repo link](https://github.com/harshilshah99/greenPaddle.git)
-* [Drive link](https://drive.google.com/drive/folders/1K0E1go9V3sBLNMMyghJflSrspOY1ZSlf?usp=sharing)
-* [Website link](https://reverent-yalow-4ee88e.netlify.app)
-## Technology Stack
-Technology learnt during this project:
-1. HTML
-2. CSS
-3. Javascript
-4. NodeJs
-5. Express
-6. MongoDB
-## Progress
-- [x] Creating Home page
-- [x] Creating Contact form with a database
-- [x] Creating Add accessories page
-- [x] Creating Places to explore page
-- [x] Sending Emails to subscribers
-## Project Setup
-* First of all you need to have nodeJs and mongoDB installed on your laptop.
-* Then you need to clone the repo to your laptop.
-* Then you need to perform following steps in your terminal
-  > * npm install
-  > * npm init
-  > * npm install express
-  > * npm install mongoose
-  > * npm install nodemon
-## Usage 
-  > Once you are done with the above steps than you can run by just typing **nodemon server** in the terminal and **localhost** on your browser.
-## Applications 
-  > This website helps user to rent a bicycle whenever they need and also for whatever period of time at low rates.It also lets you check the weather of that city before you pedal out so cycling in rain can be avoided. Cycling can keep you healthy and also help to discover new places around. It also heps in keeping the enviornment green.
-## Future Scopes 
-  > Safer routes can be added , for safer cycling experience. Chatbot can be added for 24x7 help. Online payment gateway can be added.
-  
-### <p align="center">Contact us - greenpaddle123@gmail.com</p>
+
+### 🤔 Problem Statement
+Renting Cycles on hourly/monthly basis is difficult nowadays and also traditional modes of transportation, such as cars and buses, contribute to air pollution and carbon emissions, which have negative effects on the environment and public health.
+
+### 🚀 Solution
+Thus, we have developed ***GreenPaddle***, a web solution that promotes cycling as a sustainable and healthy mode of transportation. It offers a cycle rental service, cycling accessories for purchase, information on cycling routes and events, and promotes a greener environment by encouraging people to choose cycling over other modes of transportation.
+
+### 😊 Flowchart
+![greenpaddle](https://user-images.githubusercontent.com/82211574/232412998-c651e2fe-70bf-4519-bc7e-7e4919c56136.jpg)
+
+
+### ✨Features
+  - Explore cycling places near you
+  - Book different types of cycle on hourly or monthly basis
+  - YOu can buy any cycling related accessories
+  - Check the weather before you book a cycle
+  - Contact Us
+  - Frequently asked questions
+   
+###  🤖Resources
+- [Demo Video](https://youtu.be/misKkTp2Meo)
+- [GitHub Repository](https://github.com/harshilshah99/greenPaddle)
+- [Website Link](https://reverent-yalow-4ee88e.netlify.app)
+
+### ⚙️ Tech Stack
+- Frontend : HTML, CSS, Javascript
+- Backend : NodeJs, Express
+- API : openweather api
+- Hosting : Netlify
+
+### 🔍 Future Scope!
+- Integration with smart city technology: With the rise of smart cities, there is an opportunity for greenPaddle to integrate its services with technology that helps cyclists navigate the city more easily and safely.
+- Gamification: greenPaddle could use gamification techniques to make cycling more fun and engaging, offering rewards or recognition for users who achieve certain cycling milestones or participate in cycling challenges.
+- Partnerships with local businesses: greenPaddle could partner with local businesses to offer discounts or other incentives to users who choose to cycle to their locations.
